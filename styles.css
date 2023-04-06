@@ -1,0 +1,855 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+
+/**********************************************/
+header h1{
+text-align: center;
+color: #fff;
+background-color: gray;
+height: 150px;
+}
+
+/**********************************************/
+.indexTitulo{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+width: 100%;
+height: 500px;
+text-align: center;
+}
+
+.indexTitulo h2{
+  text-transform: uppercase;
+}
+
+.cover{
+  background-image: url('images/pinterest.jpg');
+  background-size: cover;
+}
+
+/*****************************************/
+.buttonMK button{
+  height: 40px;
+  width:300px;
+  background-color: #0ba550;
+  color: #fff;
+  border-radius: 25px;
+}
+.buttonMK p{
+  padding-top: 2px;
+  text-align: center;
+  color: #0ba550;
+}
+
+/****************************************/
+
+.seen{
+  display: flex;
+justify-content: center;
+margin: 0 auto;
+  flex-wrap: wrap;
+height: 500px;
+width: 600px;
+}
+
+.seen1{
+  margin: 0 auto;
+  width:450px ;
+}
+
+.seen2{
+  margin: 0 auto;
+}
+.seen img{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+/**********************************************/
+.meal-kits{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.meal-kits div{
+    margin: 0 auto;
+}
+
+/****************************/
+  .imagen-center {
+    display: flex; /* convierte el contenedor en un contenedor flex */
+    flex-direction: column; /* establece la dirección del flex a vertical */
+    align-items: center; /* centra verticalmente el contenido en el centro del contenedor */
+    justify-content: flex-start; /* alinea el contenido en la parte superior del contenedor */
+    padding-top: 50px;
+  }
+  
+  .imagen-center img {
+    width: 10%; /* ajusta la imagen al ancho del contenedor */
+    margin-bottom :20px; 
+  }
+  .imagen-center h2{
+    text-align: center;
+  }
+  .imagen-center p{
+    margin:15px 0; /* para quitar el margen por defecto del párrafo */
+    width: 400px; 
+    text-align: left;
+  }
+
+  
+/****************************/
+  .imagen-izq {
+    width: 50%;
+    height: 500px;
+    overflow: hidden; /* para evitar que el contenido se salga del contenedor */
+    text-align: left;
+  }
+  
+  .imagen-izq img {
+    float: right; /* para que la imagen se posicione a la derecha */
+    margin: 0; /* para quitar el margen por defecto de la imagen */
+    width: 50%; /* para que la imagen ocupe la mitad del ancho total del contenedor */
+    height: 80%;
+  }
+  
+  .imagen-izq h2 {
+    float: left; /* para que el texto se posicione a la izquierda */
+    margin: 20px 0; /* para quitar el margen por defecto del párrafo */
+    width: 50%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+  }
+
+  .imagen-izq p {
+    float: left; /* para que el texto se posicione a la izquierda */
+    margin:15px 0; /* para quitar el margen por defecto del párrafo */
+    width: 50%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+  }
+
+/****************************/
+
+  .imagen-der {
+    width: 50%;
+    height: 550px;
+    overflow: hidden; /* para evitar que el contenido se salga del contenedor */
+    text-align:center ;
+  }
+  
+  .imagen-der img {
+    float: left; /* para que la imagen se posicione a la derecha */
+    margin: 0; /* para quitar el margen por defecto de la imagen */
+    width: 50%; /* para que la imagen ocupe la mitad del ancho total del contenedor */
+    height: 80%;
+  }
+  
+  .imagen-der h2{
+    float: right; /* para que el texto se posicione a la izquierda */
+    margin: 10px 0; /* para quitar el margen por defecto del párrafo */
+    width: 50%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+  }
+
+  .imagen-der p {
+    float: right; /* para que el texto se posicione a la izquierda */
+    margin:10px 0; /* para quitar el margen por defecto del párrafo */
+    width: 50%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+  }
+
+  .imagen-der button {
+    float: center; /* para que el texto se posicione a la izquierda */
+    padding-top: 10px;
+    margin: 10px 0; /* para quitar el margen por defecto del párrafo */
+    width: 30%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+   
+  }
+
+  .imagen-der button p{
+    float: center; /* para que el texto se posicione a la izquierda */
+    margin: 2px 0; /* para quitar el margen por defecto del párrafo */
+    width: 30%; /* para que el párrafo ocupe la mitad del ancho total del contenedor */
+    
+  }
+
+  
+/****************************/
+
+.title-card{
+  justify-content: center;
+  text-align: center;
+}
+
+.cards{
+  background-color: #0ba550;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd; /* añade un borde a la tarjeta */
+    display: flex; /* convierte el contenedor en un contenedor flex */
+    flex-direction: column; /* establece la dirección del flex a vertical */
+    width: 300px; /* establece el ancho máximo de la tarjeta */
+    height: 400px;
+  }
+  
+  #card-image {
+    overflow: hidden; /* oculta cualquier contenido que sobresalga de la imagen */
+  }
+  
+  #card-image img {
+    width: 100%; /* ajusta la imagen al ancho del contenedor */
+    height: 150px;
+  }
+  
+  #card-title {
+    background-color: #f2f2f2; /* agrega un color de fondo al título */
+    padding: 15px; /* agrega un relleno interno al título */
+    text-align: center; /* centra el texto del título */
+  }
+  
+  #card-content {
+    padding: 10px; /* agrega un relleno interno al contenido */
+  }
+  
+  #card-content p {
+    margin: 10px 0; /* agrega un margen a cada párrafo dentro del contenido */
+  }
+  
+  #card-content span {
+    font-weight: bold; /* agrega negrita al texto del precio */
+  }
+  
+  #button-card {
+    background-color: #fff; /* agrega un color de fondo al botón */
+    text-align: center; /* centra el botón */
+    width: 300px;
+    height: 100px;
+  }
+  
+  #button-card button {
+    background-color: #0ba550;
+    color: #fff;
+    width: 70%;
+    height: 50%;
+    border-radius: 25px 25px 25px 25px;
+  
+}
+ 
+
+
+/**************************************************************/
+
+.pepperTitle{
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  
+}
+.pepperLeaf{
+  flex-direction: column;
+  margin: 0 auto;
+  height: 1000px;
+  width: 900px;
+  padding-bottom: 200px;
+}
+
+.pepperLeaf .textL{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+
+.pepperLeaf .textR{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+
+
+.pepperLeaf div img{
+  align-items: center;
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+}
+
+.pepperButton{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.circle1{
+  position: absolute;
+  margin: 0 auto;
+  top: 34%;
+  right: 48%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle1 span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dashed-line1 {
+  position: absolute;
+  top: 34%;
+  right: 100%;
+  border: dashed;
+  border-top: 2px dashed #0ba550;
+  margin: 10px 0;
+  width: 120px;
+}
+
+
+
+.circle2{
+  position: absolute;
+  top: 58%;
+  right: 48%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle2 span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dashed-line2 {
+  position: absolute;
+  top: 34%;
+  left: 100%;
+  border: dashed;
+  border-top: 2px dashed #0ba550;
+  margin: 10px 0;
+  width: 120px;
+}
+
+.circle3{
+  position: absolute;
+  top: 80%;
+  right: 48%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle3 span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dashed-line3{
+  position: absolute;
+  top: 34%;
+  right: 100%;
+  border: dashed;
+  border-top: 2px dashed #0ba550;
+  margin: 10px 0;
+  width: 120px;
+}
+
+.circle4{
+  position: absolute;
+  top: 105%;
+  right: 48%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle4 span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dashed-line4 {
+  position: absolute;
+  top: 34%;
+  left: 100%;
+  border: dashed;
+  border-top: 2px dashed #0ba550;
+  margin: 10px 0;
+  width: 120px;
+}
+
+.circle5{
+  position: absolute;
+  top: 128%;
+  right: 48%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle5 span {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dashed-line5{
+  position: absolute;
+  top: 34%;
+  right: 100%;
+  border: dashed;
+  border-top: 2px dashed #0ba550;
+  margin: 10px 0;
+  width: 120px;
+}
+
+.dotted-line{
+  position: absolute;
+  top: 25%;
+  right: 50%;
+  height: 1100px;
+  border: 1px dashed #0ba550;
+ 
+}
+
+
+/****************************************/
+
+.recipes{
+width: 800px;
+margin: 0 auto; 
+}
+
+.promise{
+  background-image: url('pinterest.jpg');
+  background-size: cover;
+  margin: 0 auto; 
+  padding-top: 50px;
+  width: 60%;
+  height: 80%;
+  text-align: center;
+}
+
+.promise img{
+  height: 50px;
+  width: 50px;
+}
+
+.buttonPromise{
+  width: 500px;
+  height: 200px;
+  margin: 0 auto; 
+  padding: 5px;
+  padding-top: 20px;
+}
+
+
+.recipeBook{
+  margin: 0 auto; 
+  padding: 5px;
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 200px;
+
+}
+
+.img{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 600px;
+  border: 1px solid black;
+  text-align: center;
+  float: left;
+}
+
+
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 600px;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #0ba550;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 90%;
+  height: 40px;
+}
+
+.download-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/****************************************/
+
+.carrousel{
+    margin: 0 auto; 
+    width: 60%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .slider-main-image {
+    margin: 0 auto;
+    height: 70%;
+    width: 100%;
+  }
+  
+  .slider-main-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+  }
+  
+  .slider-image {
+    width: calc(25% - 10px);
+    height: 100%;
+    object-fit: cover;
+    margin: 5px 0;
+    padding-top: 5px;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+
+  .slider-controls {
+    position: absolute;
+    top: 195%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+  }
+  
+  #slider-prev, #slider-next {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(39, 224, 94);
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #slider-prev {
+    margin-right: auto;
+  }
+  
+  #slider-next {
+    margin-left: auto;
+  }
+
+
+
+  .table{
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+  }
+
+  h2{
+    margin-top: 100px;
+    text-align: center;
+
+  }
+
+  td, th {
+    border: none;
+    padding: 2px;
+  }
+  .buttonTable{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+ 
+/***********************************************************************************************/
+
+  .blog{
+    background-image: url('images/pinterest.jpg');
+  background-size: cover;
+  color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 1200px;
+  }
+
+
+.supplies{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+.supSep{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.supSep div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 200px;
+ width: 200px;
+ 
+ padding: 10px;
+}
+
+.supSep img{
+ height: 100px;
+ width: 100px;
+ }
+
+ .supSep h3{
+  height: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  }
+
+ .buttonSup{
+  text-align: center;
+  padding: 10px;
+ }
+
+ .hear{
+
+
+  background-image: url(pinterest.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
+ }
+
+ .hear button{
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  justify-content: center;
+ }
+
+ .leftB{
+  display: flex;
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  height: 400px;
+ }
+
+ .rightB{
+  display: flex;
+  position: absolute;
+  top: 95%;
+  right: 25%;
+ }
+
+
+
+ .guarantee{
+  display: flex;
+  margin: 0 auto;
+  flex-direction:column;
+  height: 900px;
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 50px;
+
+ }
+
+ .photos {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.photos img{
+  width: 400px;
+  height: 300px;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.cut2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  transform: rotate(15deg);
+}
+.cut1 {
+  position: absolute;
+  bottom: 30%;
+  left: 85%;
+  clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  transform: rotate(-15deg);
+
+}
+
+.convinced{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.formConvinced{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer{
+  height: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  
+
+
+
+  
+  
+  
+  
